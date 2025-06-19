@@ -1,0 +1,30 @@
+# Gitignore for CodeCriticAI monorepo
+
+# Node modules for both backend and frontend
+backend/node_modules/
+frontend/node_modules/
+
+# Environment variables
+backend/.env
+frontend/.env # If you have a .env in frontend too
+
+# Frontend build output
+frontend/dist/
+frontend/build/ # In case you use 'build' instead of 'dist'
+
+# IDE-specific files (e.g., VS Code)
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+.Trash
+Thumbs.db
+
+# Optional: if you have any secrets in root
+.env.*local
