@@ -13,17 +13,17 @@ This project is a web application for AI-powered code reviews, featuring a Node.
 ### 🌟 Features
 
 
-### AI-Powered Code Review: 
+### 🎛️ AI-Powered Code Review: 
 
 Comprehensive reviews using Google Gemini.
 
-### Detailed Feedback: 
+### 🎟️ Detailed Feedback: 
 
 Criticism, improvements, and refactored examples.
 
 Markdown Formatting: Reviews displayed with syntax highlighting.
 
-### 🚀 Technologies Used :
+### ⚙️ Technologies Used :
 
 Backend: Node.js, Express.js, @google/generative-ai, cors, dotenv.
 
@@ -41,7 +41,7 @@ cd backend
 
 npm install (or yarn install)
 
-Create .env with GOOGLE_GEMINI_KEY=YOUR_API_KEY_HERE.
+### Create .env with GOOGLE_GEMINI_KEY=YOUR_API_KEY_HERE.
 
 npm start (or node app.js). Runs on http://localhost:3000.
 
@@ -49,7 +49,7 @@ npm start (or node app.js). Runs on http://localhost:3000.
 
 cd ../frontend
 
-npm install (or yarn install)
+### npm install (or yarn install)
 
 npm run dev (or yarn dev). Opens in browser (e.g., http://localhost:5173).
 
@@ -59,7 +59,7 @@ Open frontend in browser.
 
 Paste code into the editor.
 
-Click "Review".
+### ⚙️ Click "Review".
 
 See AI review on the right.
 
@@ -70,10 +70,9 @@ POST /ai/get-review:
 
 Body: { "code": "..." }
 
-Response: AI review string.
+### 🎟️ Response: AI review string.
 
 🤝 Contributing
 Welcome issues and pull requests.
 
-📄 License
-MIT License.
+📄 License: MIT License.
